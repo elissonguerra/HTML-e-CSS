@@ -1,0 +1,36 @@
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /*alguns atributos podem ser simplificados, como border, padding. Exemplo:
+    
+    border: 10px solid darkslategray;
+    padding: 10px;
+    
+    Também posso transformar uma tag block em tag inline e vice-versa, usando o comando display:
+    Exemplo:
+    display: inline;
+    display: block;
+
+    Block = o espaço é a largura total da tela, e quebra o conteúdo seguinte para a linha debaixo.
+    Inline = o espaço é a largura do conteúdo, e o restante do conteúdo segue normalmente na mesma linha.
+    Exemplo de block: tag h1
+    Exemplo de inline: tag a
+    
+    */
+}
+
+a {
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 10px;
+}

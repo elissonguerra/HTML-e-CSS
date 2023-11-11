@@ -1,0 +1,59 @@
+/*Pseudo-classes são feitas usando : (dois pontos)
+Elas representam o estado que uma classe vai ser exibida, como por exemplo formar a mãozinha quando passa o mouse em cima, mudar a cor de algo quando passa o mouse, ou também alterar por exemplo a cor de um link antes e depois de clicar
+
+Pseudo-elementos são feitos usando duas vezes o :: (dois pontos dois pontos)
+Elas servem para alterar como determinado elemento vai ser exibido no HTML, porém sem alterar o conteúdo em si.
+Exemplo: colocar a palavra [link] antes ou depois de um link, porém sem digitar a palavra "link" diretamente na tag HTML. O mesmo princípio vale para colocar qualquer elemento antes ou depois de uma tag, porém sem mexer diretamente no conteúdo que está escrito na tag.
+
+# = id
+. = class
+: = pseudo-classes
+:: = pseuso-elementos
+> = children
+
+
+
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+a::after {
+    content: ' [link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+.especial::before {
+    content: 'teste ';
+    color: aqua;
+    background-color: blue;
+}
+
+.testando::after {
+    content: ' teste 2';
+    color: brown;
+    background-color: blueviolet;
+}

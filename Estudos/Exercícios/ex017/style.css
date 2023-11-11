@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace
+    /*Medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente é igual 1em
+    1em é a altura da letra M, que é usada como medida base para as outras.
+    É recomendável trabalhar sempre com "em", pois é a medida que melhor se adapta a dispositivos com diferentes tamanhos de telas. O px também funciona, mas alguns dispositivos trabalham com px duplo, triplo, etc, e podem dar pequenas diferenças de tamanho relativo. O "em" é mais "universal" nesse sentido de tamanho de fonte.
+
+    W3C recomenda px e em. W3C é o órgão que regula o HTML
+    */
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+
+    /*shor hand
+    font-style -> font-weight -> font-size -> font-family
+    
+    exemplo:
+    font: italic 400 3em italic
+    vc coloca todos os parâmetros de fonte em uma única linha, ao invés de fazer o que está acima não comentado.
+    */
+}

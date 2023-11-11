@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Devil;
+    src: url(devilcandle.otf) format('opentype');
+}
+
+h1 {
+    font-family: Devil;
+}
+
+body {
+    font-family: Devil;
+}
